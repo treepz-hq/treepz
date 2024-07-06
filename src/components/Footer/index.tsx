@@ -41,7 +41,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="w-full sm:w-[730px] flex flex-col sm:flex-row justify-between">
-            <div className="w-[196px]">
+            <div className="w-[196px] mt-2 sm:mt-0">
               <h1 className="text-xs text-[#6F7174] uppercase mb-6">
                 Solutions
               </h1>
@@ -58,7 +58,7 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-            <div className="w-[215px]">
+            <div className="w-[215px] mt-2 sm:mt-0">
               <h1 className="text-xs text-[#6F7174] uppercase mb-6">
                 GROUP TRANSPORTATION SERVICES
               </h1>
@@ -77,7 +77,7 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-            <div className="w-[159px]">
+            <div className="w-[159px] mt-2 sm:mt-0">
               <h1 className="text-xs text-[#6F7174] uppercase mb-6">company</h1>
               <div className="flex flex-col gap-2 text-sm text-[#4D5154]">
                 {companyLists.map((link, index) => (
