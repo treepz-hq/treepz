@@ -25,7 +25,7 @@ const Footer = () => {
         "mt-[206px]": ["/contact"].includes(pathname),
       })}
     >
-      <div className="container  z-50 relative px-4 sm:px-20">
+      <div className="container  z-10 relative px-4 sm:px-20">
         <div className="flex flex-col sm:flex-row mx-auto w-full justify-between border-b border-gray-100 sm:pb-[88px]">
           <div className="w-full sm:w-[298px] flex flex-col">
             <span
