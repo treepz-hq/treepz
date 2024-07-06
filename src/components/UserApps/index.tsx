@@ -26,11 +26,11 @@ const UsersAppComponent = () => {
               className="object-contain absolute"
             />
           </div>
-          <div className="flex flex-col w-full sm:w-[516px] border-t border-white pt-4 mb-14">
-            <h1 className="text-[32px] font-semibold leading-[40px] text-white mb-10">
+          <div className="flex mt-4  sm:mt-0 flex-col w-full sm:w-[516px] border-t border-white pt-4 mb-14">
+            <h1 className=" text-[24px] sm:text-[32px] font-semibold leading-[40px] text-white mb-4 sm:mb-10">
               Passenger App
             </h1>
-            <p className="text-xl text-[#DEE0E3] w-full">
+            <p className="text-base sm:text-xl text-[#DEE0E3] w-full">
               With the Treepz app, you&lsquo;re the boss of your ride. Track
               your driver in real-time, see all your trip details in one tap,
               tweak things on the fly, and even adjust your group size - all
@@ -51,10 +51,10 @@ const UsersAppComponent = () => {
       <div className="mt-4 sm:mt-14 py-4 container px-4 sm:px-20">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="flex flex-col w-full sm:w-[516px] border-t border-white pt-4 mb-14">
-            <h1 className="text-[32px] font-semibold leading-[40px] text-white mb-10">
+            <h1 className=" text-[24px] sm:text-[32px] font-semibold leading-[40px] text-white mb-4 sm:mb-10">
               Tracking dashboard
             </h1>
-            <p className="text-xl text-[#DEE0E3] w-full">
+            <p className="sm:text-xl text-[#DEE0E3] w-full">
               Treepz puts the power in your pocket. Track your driver in
               real-time, see all your trips happening live, and get instant
               updates - no matter how big or small. With Treepz, you&lsquo;re

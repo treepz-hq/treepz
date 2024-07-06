@@ -25,7 +25,7 @@ const PressComponent = () => {
                   className="object-cover absolute"
                 />
               </div>
-              <Link href="https://techeconomy.ng/treepz-2023-in-review-transports-1-2-million-passengers-adds-six-new-cities-668-vehicles-and-more/" className="text-2xl sm:text-[32px] font-semibold sm:leading-[40px] capitalize mt-3 sm:mt-6">
+              <Link target="_blank" href="https://techeconomy.ng/treepz-2023-in-review-transports-1-2-million-passengers-adds-six-new-cities-668-vehicles-and-more/" className="text-2xl sm:text-[32px] font-semibold sm:leading-[40px] capitalize mt-3 sm:mt-6">
                 Treepz 2023 in Review – Transports 1.2 million Passengers, Adds
                 Six New Cities, 668 Vehicles and More
               </Link>
@@ -37,7 +37,7 @@ const PressComponent = () => {
               {NewsData.map(({logo, title, date, href}, index) => (
                 <div className="w-full flex flex-col space-y-3 border-b pb-6" key={index}>
                  {logo}
-                  <Link href={href} className="capitalize text-gray-900 text-base w-full my-3 font-semibold">
+                  <Link target="_blank" href={href} className="capitalize text-gray-900 text-base w-full my-3 font-semibold">
                     {title}
                   </Link>
                   <p className="text-[#6F7174] text-base capitalize mt-6">

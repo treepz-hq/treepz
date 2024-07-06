@@ -55,7 +55,7 @@ const {showModal} = useEventModal();
             </div>
           </div>
           {/* company Solution */}
-                <h1 className='uppercase font-bold max-w-[527px] mb-[52px] sm:text-[32px] '>
+                <h1 className='uppercase text-center text-[24px] sm:text-left font-bold max-w-[527px] mb-[52px] sm:text-[32px] '>
                 Providing Hundreds of <br/> Companies With Solutions</h1>
           <div className="flex flex-col sm:flex-row items-center sm:mb-[100px] gap-[73px]">
             {ConferenceSolutionData.map(
@@ -89,7 +89,7 @@ const {showModal} = useEventModal();
           </div>
         </div>
         <div className="container px-4 sm:px-20 my-10 sm:my-14">
-          <h1 className="text-[#212529] font-bold uppercase">
+          <h1 className="text-[#212529] font-bold uppercase text-[24px]  sm:text-left text-center">
             Popular way to treepz
           </h1>
           <div className="flex flex-col sm:flex-row justify-between gap-4 w-full">
@@ -163,7 +163,7 @@ const {showModal} = useEventModal();
             />
           </div>
           <div className="w-full sm:w-[516px] border-t border-gray-900 pt-8">
-            <h1 className="w-full sm:w-[384px] sm:text-[40px] sm:leading-[48px]">
+            <h1 className="w-full sm:w-[384px] text-[28px] font-bold sm:text-[40px] sm:leading-[48px]">
               Treepz operates 100% carbon neutral
             </h1>
             <p className="text-[#4D5154] text-xl mt-8">

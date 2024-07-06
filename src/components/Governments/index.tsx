@@ -28,28 +28,31 @@ const NeededInformations = [
 const GovernmentsComponent = () => {
     const {showModal }= useModal()
   return (
-    <div>
+    <div className="overflow-hidden w-full ">
       <div className="bg-[url(/government-hero.png)] bg-cover bg-no-repeat w-full h-[650px] sm:h-[708px]">
         <div className="w-full mx-auto text-white pt-[60px]  sm:pt-[100px] px-4">
-          <h1 className="font-bold text-[28px] mt-[40px] leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
+          <h1 className="font-bold text-[28px] pt-[40px] sm:pt-0 mt-[40px] leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
             Seamless and Secure: The <br className="hidden sm:block"/>Premier Government Charter <br className="hidden sm:block"/> Services
           </h1>
           <p className="text-base sm:text-xl text-center">
            
-Choose Treepz, your trusted partner for secure, reliable rides. We understand your unique needs for discretion, <br/>safety, and efficiency, delivering meticulously planned charters that meet your strictest requirements.
+Choose Treepz, your trusted partner for secure, reliable rides. We understand your unique needs for discretion, <br className="sm:block hidden"/>safety, and efficiency, delivering meticulously planned charters that meet your strictest requirements.
           </p>
           <Button
             variant={"default"}
-            className="cursor-pointer rounded-full w-fit mx-auto mt-8 sm:mt-14 text-black flex items-center gap-2 mb-11 sm:mb-0"
+            className="cursor-pointer rounded-full w-full sm:w-fit  mx-auto mt-8 sm:mt-14 text-black flex items-center gap-2 mb-11 sm:mb-0"
                         onClick={showModal}
             //onClick={() => {}}
           >
-Learn more about our Premier Government Charter Services
+Learn more <span className="hidden md:block">
+ about our Premier Government Charter Services
+                        </span>
+                       
           </Button>
         </div>
       </div>
       <div className="container px-4 sm:px-20 flex flex-col mt-[63px] mb-[113px]">
-        <h1 className="text-[32px] font-bold leading-[40px] text-[#212529] my-8 w-full text-center">
+        <h1 className="text-[24px] uppercase sm:text-[32px] font-bold leading-[40px] text-[#212529] my-8 w-full text-center">
           Why Choose Treepz for Your Premier Government Charter Transportation?
         </h1>
         <p className="mb-8 text-base font-semibold text-[#6F7174] w-full text-center">
@@ -62,10 +65,10 @@ Learn more about our Premier Government Charter Services
         </div>
       </div>
       <div className="w-full sm:max-w-[1022px] mx-auto mb-10 sm:mb-[88px] px-4">
-        <h1 className="w-full sm:w-[641px] mx-auto font-bold text-[28px] sm:text-[32px] leading-[40px] uppercase text-[#212529] mb-6 text-center sm:text-left">
+        <h1 className="w-full sm:w-[641px] mx-auto font-bold text-[24px]  sm:text-[32px] leading-[40px] uppercase text-[#212529] mb-6 text-center sm:text-left">
           Focus on Your Essential Duties
         </h1>
-        <p className="text-xl text-[#4D5154] text-center">
+        <p className="sm:text-xl text-[#4D5154] text-center">
 Treepz tailors charter solutions for any government need, from large-scale deployments to VIP transport. Our expertise guarantees meticulous planning and flawless execution, leaving you free to fulfill your vital missions.
         </p>
       </div>

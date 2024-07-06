@@ -22,7 +22,7 @@ const HeroComponent = () => {
           <div className="w-full mt-10 sm:mt-[108px]">
             <SwipeWordAnimation />
           </div>
-          <div className="mt-6 mb-14 sm:text-left sm:max-w-[1016px] text-xl text-[#6F7174]">
+          <div className="mt-6 text-center mb-14 sm:text-left sm:max-w-[1016px] text-[16px] sm:text-xl text-[#6F7174]">
             We specialize in efficient and reliable personal and group
             transportation across Africa. We&lsquo;ve helped move over 4 million
             people to events, conventions, and conferences across 16 cities in 4
@@ -70,10 +70,10 @@ const HeroComponent = () => {
           <div className="bg-[url(/bg.png)] bg-cover relative bg-no-repeat w-full h-fit -top-[62px] sm:-top-[110px]">
             <div className="container px-4 sm:px-20 py-20 sm:pt-40">
               <div className="w-full sm:w-[897px] flex flex-col mb-14 sm:mb-[104px] text-center sm:text-left">
-                <h1 className="text-3xl font-bold text-[#212529] sm:leading-[40px] uppercase mb-6">
+                <h1 className=" text-[28px] sm:text-3xl font-bold text-[#212529] sm:leading-[40px] uppercase mb-6">
                   Why choose Treepz?
                 </h1>
-                <p className="font-normal text-xl text-[#4D5154]">
+                <p className="font-normal text-[14px]  text-center sm:text-left sm:text-xl text-[#4D5154]">
                   Our commitment to providing structured, accessible, and
                   predictable corporate mobility solutions has made us the
                   leading shared mobility platform in Africa.

@@ -31,10 +31,10 @@ const NeededInformations = [
 const AirlineComponent = () => {
     const {showModal} = useModal()
   return (
-    <div>
-      <div className="bg-[url(/airline-hero.png)] bg-cover bg-no-repeat w-full h-[650px] sm:h-[708px] mt-10 sm:mt-20">
+    <div className="w-full overflow-hidden">
+      <div className="bg-[url(/airline-hero.png)] bg-cover bg-no-repeat w-full h-[600px] sm:h-[708px] mt-10 sm:mt-20">
         <div className="w-full sm:w-[702px] mx-auto text-white pt-[60px] sm:pt-[100px] px-4">
-          <h1 className="font-bold text-[28px] leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
+          <h1 className="font-bold pt-[40px] sm:pt-0 text-[30px] leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
 Stress-free arrivals guaranteed
           </h1>
           <p className="text-base sm:text-xl text-center">
@@ -50,7 +50,7 @@ Stress-free arrivals guaranteed
         </div>
       </div>
       <div className="container px-4 sm:px-20 flex flex-col mt-[63px] mb-[113px]">
-        <h1 className="text-[32px] font-bold leading-[40px] text-[#212529] my-8 w-full text-center">
+        <h1 className="text-[24px] uppercase sm:text-[32px] font-bold leading-[40px] text-[#212529] my-8 w-full text-center">
           Why Choose Treepz for Your Airline Transportation?
         </h1>
         <p className="mb-8 text-base font-semibold text-[#6F7174] w-full text-center">
@@ -63,8 +63,8 @@ Stress-free arrivals guaranteed
         </div>
       </div>
       <div className="w-full sm:max-w-[1022px] mx-auto mb-10 sm:mb-[88px] px-4">
-        <h1 className="w-full sm:w-[641px] mx-auto font-bold text-[28px] sm:text-[32px] leading-[40px] uppercase text-[#212529] mb-6 text-center sm:text-left">
-          Great Fliers Don’t Flap – They Treepz
+        <h1 className="w-full sm:w-[641px] mx-auto font-bold text-[24px] sm:text-[32px] leading-[40px] uppercase text-[#212529] mb-6 text-center sm:text-left">
+          Great Fliers Don’t Flap – They Get On Treepz
         </h1>
         <p className="text-xl text-[#4D5154] text-center">
     Treepz tailors airport shuttles to your needs, whether you're flying solo, with a group, or luggage mountains high. Choose the perfect departure time, relax in comfort, and arrive on time - stress-free and ready to explore.
@@ -264,7 +264,7 @@ Stress-free arrivals guaranteed
             </ul>
 
             <h1 className="font-semibold text-xl sm:text-[28px] sm:leading-[36px]" id="info_5">
-                        Supporting Local Businesses
+                    Supporting Local Businesses
             </h1>
             <p>
            Did you know that, when you use Treepz’s airport shuttle, you are also supporting small, local business owners in your local area? That’s because we are passionate advocates for small business owners all over the world. 
@@ -285,8 +285,7 @@ Stress-free arrivals guaranteed
             <Button
               variant={"default"}
               className="cursor-pointer rounded-full font-semibold text-gray-900 flex items-center gap-2 mt-6 w-fit sm:mt-10 sm:mb-[48px]"
-                            onClick={showModal}
-              //onClick={() => {}}
+                    onClick={showModal}
             >
               Speak to the Treepz Team
               <ChevronRightIcon />

@@ -22,15 +22,8 @@ const RentACarComponent = () => {
             noOfUsers={noOfUsers}
           />
         ))}
-        <div className="relative w-[294px] h-auto">
-          <Image
-            src="/without-limit.png"
-            alt="without limit"
-            fill
-            priority
-            className="absolute  object-contain"
-          />
-          <div className="absolute w-full sm:mx-auto space-y-[18px] px-4 mx-4 bottom-4">
+        <div className="relative w-[294px] h-[300px] bg-cover  bg-[url('/without-limit.png')] ">
+          <div className=" w-full sm:mx-auto space-y-[18px] sm:absolute px-4 pt-[80px] sm:pt-0 mx-4 bottom-4">
             <p className="mt-[20px] text-white text-base sm:text-lg leading-[40px]">
               Explore without limits. <br />
               Find your next ride.

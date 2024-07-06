@@ -10,7 +10,7 @@ const GetAQuote = () => {
           <h1 className="text-[28px] sm:text-[40px] font-medium leading-[48px] text-white">
             Get a Free Quote Right Away
           </h1>
-          <div className="flex w-full sm:w-[355px] items-center">
+          <div className="flex mt-1 w-full sm:w-[355px] items-center">
             <div className="flex gap-4 w-full">
               <div>
                 <TimerIcon />

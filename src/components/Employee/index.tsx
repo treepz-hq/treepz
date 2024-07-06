@@ -27,10 +27,10 @@ const NeededInformations = [
 const EmployeeTransComponent = () => {
     const {showModal} = useModal()
   return (
-    <>
+    <div className="w-full overflow-hidden">
       <div className="bg-[url(/employee-hero.png)] bg-no-repeat bg-cover w-full text-white flex flex-col justify-center items-center py-[62px] sm:py-[176px] mt-5 sm:mt-20">
         <div className="mb-13 flex flex-col w-full sm:w-[783px] text-center">
-          <h1 className="text-[36px] sm:text-[56px] font-bold leading-[40px] sm:leading-[64px] uppercase text-center w-full">
+          <h1 className="text-[32px] pt-[40px] sm:pt-0  sm:text-[56px] font-bold leading-[40px] sm:leading-[64px] uppercase text-center w-full">
 Get your employees to move better
           </h1>
           <p className="text-base text-center sm:text-xl mt-[20px] sm:mt-[28px]">
@@ -375,7 +375,7 @@ Get your employees to move better
       <div className="mt-20">
         <PopularCitiesCarousel />
       </div>
-    </>
+    </div>
   );
 }
 

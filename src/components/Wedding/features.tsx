@@ -8,7 +8,7 @@ const RightColumn = ["24/7 Treepz Concierge", "Easy Booking Process", "On-Site C
 const WeddingFeatures = () => {
   return (
     <div className="w-full sm:max-w-[1022px] px-4 sm:px-20 flex flex-col mt-[40px] sm:mt-[123px]">
-      <h1 className="text-[#212529] text-[32px] font-bold leading-[40px] mb-10">
+      <h1 className="text-[#212529] uppercase text-[24px] text-center sm:text-left sm:text-[32px] font-bold leading-[40px] mb-10">
         Transport for Weddings
       </h1>
       <div className="flex w-full flex-col space-y-6 text-base sm:text-lg text-[#4D5154] mb-[80px] sm:mb-[107px]">

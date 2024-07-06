@@ -15,7 +15,7 @@ import { NewPartnerLogos } from "./data";
 const AboutComponent = () => {
     return (
       <>
-        <div className="bg-gradient-to-t to-[#FDF2D052] from-[#FDF2D000]  via-[#ffffff] bg-no-repeat sm:h-[704px] sm:mt-20 flex flex-col sm:flex-row">
+        <div className="bg-gradient-to-t pt-[80px] to-[#FDF2D052] from-[#FDF2D000]  via-[#ffffff] bg-no-repeat sm:h-[704px] sm:mt-20 flex flex-col sm:flex-row">
           <div className="w-full sm:w-[776px] px-4 sm:pl-20 my-10 sm:my-[85px] flex justify-center flex-col">
             <div className="bg-[#FDF2D0] flex items-center gap-2 w-[155px] h-10 text-xl rounded-full mx-auto sm:mx-0 mb-[12px] uppercase text-[#A57F0C] py-2 px-3">
               our mission
@@ -26,7 +26,7 @@ const AboutComponent = () => {
             </h1>
             <div className="w-full sm:w-[484px] rounded-[12px] bg-white border border-[#FDF2D0] gap-4 p-4 mt-10 sm:mt-[75px]">
               <h2 className="mb-4 uppercase text-[#A57F0C]">our vision</h2>
-              <h1 className="text-xl w-full text-[#212529]">
+              <h1 className="sm:text-xl w-full text-[#212529]">
                 We are building a future where your ability to move freely
                 aligns with shared values of sustainability, safety and
                 community.
@@ -70,7 +70,7 @@ const AboutComponent = () => {
             </h1>
             <Button
               variant={"default"}
-              className="w-fit sm:w-[240px] mb-3 mt-8 sm:mt-0 py-4 px-6 font-semibold relative overflow-hidden group h-14"
+              className="w-full sm:w-fit sm:w-[240px] mb-3 mt-8 sm:mt-0 py-4 px-6 font-semibold relative overflow-hidden group h-14"
               //onClick={() => {}}
             >
               <span className="transition-transform duration-700 ease-in-out absolute top-0 left-0 w-full h-full flex items-center justify-center group-hover:transform group-hover:-translate-y-full">

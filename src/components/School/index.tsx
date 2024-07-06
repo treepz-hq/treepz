@@ -25,10 +25,10 @@ const NeededInformations = [
 const SchoolTransComponent = () => {
     const {showModal} = useModal()
   return (
-    <>
-      <div className="bg-[url(/school-hero.png)] bg-no-repeat bg-cover w-full text-white flex flex-col justify-center items-center py-[62px] sm:py-[176px] mt-5">
+    <div className='overflow-hidden w-full'>
+      <div className="bg-[url(/school-hero.png)] px-4 bg-no-repeat bg-cover w-full text-white flex flex-col justify-center items-center py-[62px] sm:py-[176px] mt-5">
         <div className="mb-13 flex flex-col w-full sm:w-[783px] text-center">
-          <h1 className="text-[36px] sm:text-[56px] font-bold leading-[40px] sm:leading-[64px] uppercase text-center w-full">
+          <h1 className="text-[32px] pt-[40px] sm:pt-0 sm:text-[56px] font-bold leading-[40px] sm:leading-[64px] uppercase text-center w-full">
             TREEPZ’S School Transportation Services
           </h1>
           <p className="text-base text-center sm:text-xl mt-[20px] sm:mt-[28px]">
@@ -43,7 +43,7 @@ const SchoolTransComponent = () => {
           Book your school transportation service
         </Button>
       </div>
-      <h1 className="text-2xl sm:text-[32px] leading-[40px] font-bold mt-[56px] sm:mt-[96px] sm:mb-[42px] w-full text-center">
+      <h1 className="text-2xl sm:text-[32px] leading-[40px] font-bold mt-[56px] sm:mt-[96px] sm:mb-[42px] w-full uppercase text-center">
         Why Choose Treepz for Transportation Services for Schools?
       </h1>
       <div className="container px-4 sm:px-20 flex flex-col mt-[75px] mb-[113px]">
@@ -57,7 +57,7 @@ const SchoolTransComponent = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col w-full space-y-6 justify-center items-center sm:max-w-[1022px] sm:mx-auto">
+      <div className="flex flex-col w-full px-4 space-y-6 justify-center items-center sm:max-w-[1022px] sm:mx-auto">
         <h1 className="text-2xl sm:text-[32px] sm:leading-[40px] text-[#212529] uppercase font-bold text-center">
           capabilities for all your needs
         </h1>
@@ -342,7 +342,7 @@ const SchoolTransComponent = () => {
       </div>
       <TechCommLogos />
       <BetterTogetherComponent />
-    </>
+    </div>
   );
 }
 

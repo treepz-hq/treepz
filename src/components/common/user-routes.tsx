@@ -8,10 +8,10 @@ interface RoutesProps {
 
 const UserRoutesComponent: React.FC<RoutesProps> = ({ title, desc, mainSrc = "bus-route.png" }) => {
     return (
-        <div className="bg-[#FDF2D0] w-full">
+        <div className="bg-[#FDF2D0] w-full pt-4">
         <div className="px-4 sm:pl-20 sm:pr-0 flex justify-between flex-col sm:flex-row">
           <div className="py-4 sm:py-[120px] flex flex-col w-full sm:w-[645px]">
-            <h1 className="text-2xl font-bold mb-2 sm:mb-6">
+            <h1 className=" text-[24px] sm:text-2xl uppercase font-bold mb-2 sm:mb-6">
               {title}
             </h1>
             <p className="text-lg sm:text-xl w-full sm:w-[550px] text-[#4D5154]">

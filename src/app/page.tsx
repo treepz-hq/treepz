@@ -21,6 +21,7 @@ export default function Home() {
 
 export const metadata: Metadata = {
   title: "Treepz: Africa's Leading Corporate Mobility Solution.",
+    description: "Treepz is Africa’s largest corporate mobility startup serving more than 5 million customers across 4 countries including Nigeria, Kenya, Ghana and Uganda. From commuter shuttling to large-scale vehicle rentals, we serve thousands of customers daily across 16 cities in Africa."
 };
 
 

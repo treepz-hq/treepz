@@ -21,10 +21,10 @@ const ExecutiveInfo =["Put Your Workplace Travels  in Treepz’s Hands", "Why Ch
 const ExecutiveComponent = () => {
     const { showModal } = useModal();
     return (
-      <div>
+      <div className="w-full overflow-hidden">
         <div className="bg-[url(/exec-trans.png)] bg-cover bg-no-repeat w-full h-[479px] sm:h-[708px] justify-center items-center sm:mt-20">
           <div className="w-full sm:w-[920px] mx-auto text-white pt-[60px] sm:pt-[180px] px-4">
-            <h1 className="font-bold text-[32px] leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
+            <h1 className="font-bold text-[32px] pt-[40px] sm:pt-0 leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
               Treepz’s Polished Executive Transportation
             </h1>
             <p className="text-base sm:text-xl text-center w-full sm:w-[614px] mx-auto">
@@ -44,7 +44,7 @@ const ExecutiveComponent = () => {
           </div>
         </div>
         <div className="container px-4 sm:px-20 flex flex-col mt-[63px] mb-[113px]">
-          <h1 className="text-[32px] font-bold leading-[40px] w-full text-center mb-[42px]">
+          <h1 className=" uppercase text-[24px] sm:text-[32px] font-bold leading-[40px] w-full text-center mb-[42px]">
             Why Choose Treepz for Executive Transportation?
           </h1>
           <p className="mb-8 text-base font-semibold text-[#6F7174] w-full text-center">

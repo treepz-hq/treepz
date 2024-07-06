@@ -21,10 +21,10 @@ const NeededInformations = ["Corporate Shuttle Service", "Which Treepz corporate
 const CorporateComponent = () => {
     const {showModal} = useModal();
   return (
-    <div>
-      <div className="bg-[url(/corporate-hero.png)] bg-cover bg-no-repeat w-full h-[622px] sm:h-[707px] sm:mt-20">
-        <div className="w-full sm:w-[702px] mx-auto text-white pt-[60px] sm:pt-[144px] px-4">
-          <h1 className="font-bold text-[38px] sm:text-[54px] sm:leading-[56px] mb-[28px] uppercase text-center">
+    <div className="w-full overflow-hidden">
+      <div className="  justify-between bg-[url(/corporate-hero.png)] bg-cover bg-no-repeat w-full h-[622px] sm:h-[707px] sm:mt-20">
+        <div className="w-full sm:w-[702px] mx-auto text-white pt-[120px] sm:pt-[144px] px-4">
+          <h1 className="font-bold text-[32px] sm:text-[54px] sm:leading-[56px] mb-[28px] uppercase text-center">
            Drive Your Business Forward 
 with Treepz Shuttles.
           </h1>

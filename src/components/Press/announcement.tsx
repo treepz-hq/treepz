@@ -18,7 +18,7 @@ const AnnouncementComponent = () => {
             className="flex flex-col space-y-2 pb-6 border-b mb-4"
           >
             <div className="flex w-full justify-between items-center">
-              <Link href={link} className="font-semibold text-xl sm:text-2xl">
+              <Link target="_blank" href={link} className="font-semibold text-xl sm:text-2xl">
                 {title}
               </Link>
               <span className="w8 h-8 cursor-pointer">
@@ -51,7 +51,7 @@ const AnnouncementComponent = () => {
             .
           </p>
         </div>
-        <Link href="https://drive.google.com/drive/folders/14O2b2lUq-y_jd9kX18n4_vb8QG8WKd9e?usp=sharing">
+        <Link target="_blank" href="https://drive.google.com/drive/folders/14O2b2lUq-y_jd9kX18n4_vb8QG8WKd9e?usp=sharing">
           <Button
             variant={"default"}
             className="cursor-pointer rounded-full font-medium w-[295px] mx-auto my-8 sm:mt-11  border-gray-900 text-black flex gap-2"

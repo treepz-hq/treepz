@@ -9,7 +9,7 @@ const BlogComponent = () => {
     <>
       <div className="relative container px-4 sm:px-20 border-t border-white py-[62px] flex w-full flex-col">
         <div className="flex justify-between items-center text-white w-full mb-[40px] sm:mb-[66px]">
-          <h1 className="font-bold uppercase text-[32px] leading-[40px] text-center sm:text-left w-full">
+          <h1 className="font-bold uppercase text-[28px] sm:text-[32px] leading-[40px] text-center sm:text-left w-full">
             MORE ABOUT TREEPZ TECHNOLOGY
           </h1>
           <Button
@@ -26,7 +26,7 @@ const BlogComponent = () => {
           </Button>
         </div>
         {/*  */}
-        <div className="w-full flex flex-col sm:flex-row gap-8 mb-[215px]">
+        <div className="w-full flex flex-col sm:flex-row gap-8 mb-[40px] sm:mb-[215px]">
           {BlogData.map(({ src, title, description }) => (
             <BlogCard
               src={src}

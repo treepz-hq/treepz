@@ -31,7 +31,7 @@ const OurBlogComponent = () => {
             </div>
             <div className="space-y-2">
               <p className="text-[#6F7174] text-base capitalize mt-6">{date}</p>
-              <Link href={href} className="text-2xl font-semibold">
+              <Link target="_blank" href={href} className="text-2xl font-semibold">
                 {title}
               </Link>
               <p className="text-[#6F7174] text-base">{desc}</p>

@@ -19,7 +19,7 @@ const SwipeWordAnimation: React.FC = () => {
 
   return (
     <div className="flex">
-      <span className="font-bold text-3xl sm:text-[56px] uppercase mt-12 sm:mt-20 sm:leading-[64px]">
+      <span className="font-bold  text-center sm:text-left text-3xl sm:text-[56px] uppercase mt-12 sm:mt-20 sm:leading-[64px]">
         treepz is the corporate mobility <br />
         solution for
         <div className="inline-block">

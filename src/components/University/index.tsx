@@ -28,10 +28,10 @@ const NeededInformations = [
 const UniversityComponent = () => {
     const {showModal} = useModal()
   return (
-    <div>
-      <div className="bg-[url(/university-hero.png)] bg-cover bg-no-repeat w-full h-[650px] sm:h-[708px]">
+    <div className="w-full overflow-hidden">
+      <div className="bg-[url(/university-hero.png)] bg-cover bg-no-repeat w-full h-[550px] sm:h-[708px]">
         <div className="w-full sm:w-[702px] mx-auto text-white pt-[60px] sm:pt-[100px] px-4">
-          <h1 className="font-bold text-[28px] leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
+          <h1 className="font-bold text-[28px] pt-[40px] sm:pt-0 leading-[40px] sm:text-[56px] sm:leading-[64px] mb-[28px] uppercase text-center">
           Treepz Shuttle: Campus hustle made easy.
           </h1>
           <p className="text-base sm:text-xl text-center">
@@ -48,7 +48,7 @@ onClick={showModal}
         </div>
       </div>
       <div className="container px-4 sm:px-20 flex flex-col mt-[63px] mb-[113px]">
-        <h1 className="text-[32px] font-bold leading-[40px] text-[#212529] my-8 w-full text-center">
+        <h1 className="text-[24px] uppercase font-bold leading-[40px] text-[#212529] my-8 w-full text-center">
           Why Choose Treepz for Your Campus Transportation?
         </h1>
         <p className="mb-8 text-base font-semibold text-[#6F7174] w-full text-center">
@@ -61,10 +61,10 @@ onClick={showModal}
         </div>
       </div>
       <div className="w-full sm:max-w-[1022px] mx-auto mb-10 sm:mb-[88px] px-4">
-        <h1 className="w-full sm:w-[641px] mx-auto font-bold text-[28px] sm:text-[32px] leading-[40px] uppercase text-[#212529] mb-6 text-center">
+        <h1 className="w-full sm:w-[641px] mx-auto font-bold text-[24px] sm:text-[32px] leading-[40px] uppercase text-[#212529] mb-6 text-center">
           Make it a Smart Move
         </h1>
-        <p className="text-xl text-[#4D5154] text-center">
+        <p className="sm:text-xl text-[#4D5154] text-center">
           Treepz specializes in providing top-of-the-class intercampus shuttle
           services for students and faculty across the United States. With our
           broad fleet of modern vehicles and dedicated team of experienced

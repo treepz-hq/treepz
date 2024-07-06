@@ -1,19 +1,19 @@
 import XIcon from "@/assets/svgs/x-icon.svg";
-import Support2472 from '@/assets/svgs/and your concierge copy.svg'
+import Support2472 from "@/assets/svgs/and your concierge copy.svg";
 import NoneLogo from "@/assets/svgs/user-service.svg";
 import FacebookIcon from "@/assets/svgs/facebook-icon.svg";
 import LinkedinIcon from "@/assets/svgs/linkedin-icon.svg";
 import InstagramIcon from "@/assets/svgs/instagram-icon.svg";
 import DoorToDoorIcon from "@/assets/svgs/Door-to-door.svg";
 import RealSustainIcon from "@/assets/svgs/real.svg";
-import EndlessIcon from "@/assets/svgs/endless-icon.svg"
+import EndlessIcon from "@/assets/svgs/endless-icon.svg";
 import GoingFurtherIcon from "@/assets/svgs/going-further.svg";
 import WalletFriendlyIcon from "@/assets/svgs/wallet-friendly.svg";
 import CheckableEasyIcon from "@/assets/svgs/checkable-easy-payable.svg";
 import SuppotLocalBuzIcon from "@/assets/svgs/support-local-biz.svg";
 import SlickRides from "@/assets/svgs/slick-rides.svg";
 import EasyToBeGreen from "@/assets/svgs/easy-to-be-green.svg";
-import LastMile from '@/assets/svgs/Last mile Shuttling.svg'
+import LastMile from "@/assets/svgs/Last mile Shuttling.svg";
 import AllAroundTheWorld from "@/assets/svgs/all-around-the-world.svg";
 import ApproveReview from "@/assets/svgs/approve-review.svg";
 import EmployeeSupport from "@/assets/svgs/employee-support.svg";
@@ -185,7 +185,7 @@ export const EmployeePartnerData: OurPartnerProps[] = [
 
   { src: "logo-0.png" },
   { src: "New-mtn-logo.png" },
-    {src:'Wakanow-Logo.png'}
+  { src: "Wakanow-Logo.png" },
 ];
 
 export const ExecutivePartnerData: OurPartnerProps[] = [
@@ -200,11 +200,10 @@ export const ExecutivePartnerData: OurPartnerProps[] = [
 
   { src: "logo-0.png" },
   { src: "New-mtn-logo.png" },
-    {src:'Wakanow-Logo.png'}
+  { src: "Wakanow-Logo.png" },
 ];
 
 export const MainPartnerData: OurPartnerProps[] = [
-
   { src: "logo-2.png" },
   { src: "logo-3.png" },
   { src: "Techstars.png" },
@@ -217,37 +216,35 @@ export const MainPartnerData: OurPartnerProps[] = [
   { src: "logo-0.png" },
   { src: "New-mtn-logo.png" },
 ];
-export const HealthPartnerData: OurPartnerProps []=[
-
-    {
-        src:"logo-19.png"
-    },
-    {
-        src:"logo-3.png"
-    },
-    {
-        src:"logo-15.png"
-    },
-    {
-        src:"logo-14.png"
-    },
-    {
-        src:"logo-12.png"
-    },
-    {
-        src:"logo-11.png"
-    },
-    {
-        src:"logo-10.png"
-    },
-    {
-        src:"logo-20.png"
-    },
-    {
-        src:"logo-24.png"
-    },
-
-]
+export const HealthPartnerData: OurPartnerProps[] = [
+  {
+    src: "logo-19.png",
+  },
+  {
+    src: "logo-3.png",
+  },
+  {
+    src: "logo-15.png",
+  },
+  {
+    src: "logo-14.png",
+  },
+  {
+    src: "logo-12.png",
+  },
+  {
+    src: "logo-11.png",
+  },
+  {
+    src: "logo-10.png",
+  },
+  {
+    src: "logo-20.png",
+  },
+  {
+    src: "logo-24.png",
+  },
+];
 export const MiniPartnerData: OurPartnerProps[] = [
   {
     src: "Wakanow-Logo.png",
@@ -510,7 +507,7 @@ export const EventUniqueData: IProps[] = [
 
 export const EmployeeUniqueData: IProps[] = [
   {
-    icon: <DoorToDoorIcon/>,
+    icon: <DoorToDoorIcon />,
     title: "We do the checks so you don’t have to",
     description:
       "Our focus is providing you with the safest transportation possible, so we regularly check all our vehicles and drivers to keep you safe and secure on every journey",
@@ -540,7 +537,7 @@ export const EmployeeUniqueData: IProps[] = [
       "At Treepz, we take pride in leading the industry with outstanding customer experience. Whether it is choosing you shuttle or customizing your personal information, we make sure that each ride is perfectly tailored to each rider.",
   },
   {
-    icon: <NoneLogo/>,
+    icon: <NoneLogo />,
     title: "Support local businesses",
     description:
       "Booking with Treepz means you’re also supporting your local businesses because we carefully select regional drivers who know the area.",
@@ -626,10 +623,10 @@ export const GovernmentsUniqueData: IProps[] = [
 
 export const UniversityUniqueData: IProps[] = [
   {
-    icon:<TravelSupport247 />,
+    icon: <TravelSupport247 />,
     title: "Attentive and secure",
     description:
-     "Every Treepz trip starts with top-notch shuttles and trained drivers, meticulously checked for your comfort and peace of mind. Get where you need to be, relaxed and ready to conquer your day.",
+      "Every Treepz trip starts with top-notch shuttles and trained drivers, meticulously checked for your comfort and peace of mind. Get where you need to be, relaxed and ready to conquer your day.",
   },
   {
     icon: <EndlessIcon />,
@@ -660,7 +657,6 @@ export const UniversityUniqueData: IProps[] = [
     title: "Support local business owners",
     description:
       "Treepz connects you to your community. Each journey you take is powered by a local, vetted driver, deeply familiar with your neighborhood and its surroundings.",
-
   },
 ];
 
@@ -813,7 +809,7 @@ export const AirportUniqueData: IProps[] = [
       "A unique feature to the Treepz corporate shuttling program, we don't just leave rides to walk the last mile, we make sure the each and ever rider arrives on time to their exact destination.",
   },
   {
-    icon: <GoingFurtherIcon/>,
+    icon: <GoingFurtherIcon />,
     title: "Hyper-Efficient",
     description:
       "Optimized routes, ensuring efficiency for every rider, parent, and school.",
@@ -967,8 +963,13 @@ export const FoundersData: TeamsMembersProps[] = [
   {
     src: "onyeka.png",
     name: "Onyeka Akumah",
-    title: "Co-Founder/CEO",
+
+    // @ts-ignore
+    title: "Founder & CEO",
+
+    // @ts-ignore
     social: "https://www.linkedin.com/in/onyekaakumah/",
+    // @ts-ignore
   },
   {
     src: "johnny.png",
@@ -977,16 +978,16 @@ export const FoundersData: TeamsMembersProps[] = [
     social: "https://www.linkedin.com/in/johnny-enagwolor-99b83766/",
   },
   {
-    src: "afolabi.png",
-    name: "Afolabi Oluseyi",
-    title: "Co-Founder/VP of Products",
-    social: "https://www.linkedin.com/in/oluseyi-afolabi/",
-  },
-  {
     src: "john.png",
     name: "John Atumeyi Shaibu",
     title: "Co-Founder/VP of Customer Engagement",
     social: "https://www.linkedin.com/in/john-atumeyi-shaibu/",
+  },
+  {
+    src: "afolabi.png",
+    name: "Afolabi Oluseyi",
+    title: "Co-Founder/VP of Products",
+    social: "https://www.linkedin.com/in/oluseyi-afolabi/",
   },
 ];
 
@@ -1038,7 +1039,7 @@ export const ConferenceSolutionData: IProps[] = [
 
 export const NonEmeTranspUniqueData: IProps[] = [
   {
-    icon: <TravelSupport247/>,
+    icon: <TravelSupport247 />,
     title: "Safe and sound",
     description:
       "First and foremost, we provide safe transportation from door to door, employing drivers who will take you there in carefully designed and checked vehicles",
@@ -1050,7 +1051,7 @@ export const NonEmeTranspUniqueData: IProps[] = [
       "We will not keep you waiting or make you late for appointments, and every trip can be tailored to your budget, with no fuss, no hidden extras",
   },
   {
-    icon: <EmployeeSupport/>,
+    icon: <EmployeeSupport />,
     title: "Speak to a real person",
     description:
       "All of our team is trained and extremely caring; they will take onboard all of your concerns and requirements to provide the best and most common sense service for you",
@@ -1062,7 +1063,7 @@ export const NonEmeTranspUniqueData: IProps[] = [
       "Whether you need a vehicle that is wheelchair-accessible or spacious enough for your vital equipment, our transportation service is completely inclusive",
   },
   {
-    icon: <Support2472/>,
+    icon: <Support2472 />,
     title: "Comfort and convenience",
     description:
       "Your vehicle will have amenities such as comfy seating and temperature control, so you will always feel comfortable",
