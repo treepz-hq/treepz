@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/gear-up/*"
+  to = "/gear-up/index.html"
+  status = 200
