@@ -3,6 +3,6 @@
   publish = ".next"
 
 [[redirects]]
-  from = "/gear-up/*"
-  to = "/gear-up/index.html"
+  from = "/gearup/*"
+  to = "/gearup/index.html"
   status = 200
