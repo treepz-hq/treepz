@@ -20,7 +20,8 @@ const nextConfig = {
       },
     ];
   },
-   output: 'out',
+  output: 'out',
+    distDir: 'out',
 };
 
 module.exports = nextConfig;
