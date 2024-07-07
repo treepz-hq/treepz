@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[[redirects]]
+  from = "/gear-up/*"
+  to = "/gear-up/index.html"
+  status = 200

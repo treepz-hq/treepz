@@ -12,6 +12,14 @@ const nextConfig = {
 
     return config;
   },
+   async rewrites() {
+    return [
+      {
+        source: '/gear-up/:path*',
+        destination: '/gear-up/:path*',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
