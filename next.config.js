@@ -15,8 +15,8 @@ const nextConfig = {
    async rewrites() {
     return [
       {
-        source: '/gear-up/:path*',
-        destination: '/gear-up/:path*',
+        source: '/gearup/:path*',
+        destination: '/gearup/:path*',
       },
     ];
   },
