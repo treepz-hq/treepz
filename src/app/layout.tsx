@@ -14,6 +14,8 @@ import BookNowForm from "@/components/Forms/BookNowForm";
 import EventModalComponent from "@/components/EventModal";
 import toast, { Toaster } from "react-hot-toast";
 import EventForm from "@/components/Forms/EventForm";
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 const myFont = localFont({
   src: [
     {
@@ -69,6 +71,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </ModalProvider>
                     </EventModalProvider> 
         </div>
+        <GoogleAnalytics gaId="G-9R71XZ52DX" />
       </body>
     </html>
   );
